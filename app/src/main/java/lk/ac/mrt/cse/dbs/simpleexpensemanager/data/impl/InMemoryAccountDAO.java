@@ -38,8 +38,7 @@ public class InMemoryAccountDAO implements AccountDAO {
     }
 
     @Override
-    public List<String> getAccountNumbersList() {
-        return new ArrayList<>(accounts.keySet());
+    public List<String> getAccountNumbersList() {return new ArrayList<>(accounts.keySet());
     }
 
     @Override
